@@ -4,7 +4,7 @@ Body{
     margin: 0;
     padding: 0;
     font-family: 'Poppins', sans-serif;
-    background: #5f7adb;
+    background: #1f2633;
 }
 
 header{
@@ -29,3 +29,58 @@ header a{
     font-weight: bold;
 }
 
+/*Esta e a area dos arquivos*/
+
+.area{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 800px;
+    background: #7229d9;
+    margin: 0 auto;
+    border-radius: 4px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.205);
+}
+
+.area > div{
+    background: #ffffff;
+    flex: 1 1 150px;
+    margin: 10px;
+    border-radius: 4px;
+    text-align: center;
+    padding: 5px;
+}
+
+.area > div h4{
+    margin-top: -3px;
+}
+
+.area > div a{
+    text-decoration: none;
+    background: #1f2633;
+    color: #ffffff;
+    border-radius: 4px;
+    display: block;
+    padding: 1px;
+}
+
+.area > div img{
+    width: 30px;
+}
+
+.conteudo{
+    width: 150px;
+    height: 110px;
+    padding: 5px;
+    margin: 0 auto;
+    overflow: auto;
+}
+
+::-webkit-scrollbar{
+    width: 5px;
+}
+
+@media(max-width: 600px){
+    .area{
+        margin: 10px;
+    }
+}
